@@ -1,4 +1,4 @@
-import { addTwo, addThree, addFive, compose } from '../';
+import { addTwo, addThree, addFive, compose } from '../promise/compose';
 
 test('serial promise composition', () => {
   let addTen = compose(
